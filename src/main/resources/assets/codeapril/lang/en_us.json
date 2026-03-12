@@ -1,0 +1,13 @@
+{
+  "itemGroup.codeapril": "Example Mod Tab",
+  "block.codeapril.example_block": "Example Block",
+  "item.codeapril.example_item": "Example Item",
+
+  "codeapril.configuration.title": "Code April Configs",
+  "codeapril.configuration.section.codeapril.common.toml": "Code April Configs",
+  "codeapril.configuration.section.codeapril.common.toml.title": "Code April Configs",
+  "codeapril.configuration.items": "Item List",
+  "codeapril.configuration.logDirtBlock": "Log Dirt Block",
+  "codeapril.configuration.magicNumberIntroduction": "Magic Number Text",
+  "codeapril.configuration.magicNumber": "Magic Number"
+}
