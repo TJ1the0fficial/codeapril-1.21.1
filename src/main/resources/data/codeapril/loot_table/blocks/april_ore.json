@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "codeapril:april"
+          "name": "codeapril:raw_april"
         }
       ],
       "rolls": 3.0
