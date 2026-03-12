@@ -9,5 +9,11 @@
   "codeapril.configuration.items": "Item List",
   "codeapril.configuration.logDirtBlock": "Log Dirt Block",
   "codeapril.configuration.magicNumberIntroduction": "Magic Number Text",
-  "codeapril.configuration.magicNumber": "Magic Number"
+  "codeapril.configuration.magicNumber": "Magic Number",
+
+  "item.codeapril.april" : "April",
+  "item.codeapril.raw_april" : "Raw April",
+  "block.codeapril.april_ore" : "April Ore",
+  "block.codeapril.raw_april_block" : "Raw April Block",
+  "itemGroup.codeapril.code_april_creative_tab" : "Code:April"
 }
