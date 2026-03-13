@@ -37,6 +37,18 @@ public class ModBlocks {
             RAW_APRIL_BLOCK
     );
 
+    public static DeferredBlock<Block> APRIL_BLOCK = BLOCKS.register(
+            "april_block",
+            () -> new Block((BlockBehaviour.Properties.of()
+                    .destroyTime(4f)
+                    .requiresCorrectToolForDrops()
+            ))
+    );
+    public static DeferredItem<BlockItem> APRIl_BLOCK_ASITEM = ITEMS.registerSimpleBlockItem(
+            "april_block",
+            APRIL_BLOCK
+    );
+
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }

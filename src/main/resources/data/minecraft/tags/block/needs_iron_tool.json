@@ -1,6 +1,5 @@
 {
   "values" : [
-    "codeapril:april_ore",
-    "codeapril:raw_april_block"
+    "#minecraft:april_blocks"
   ]
 }

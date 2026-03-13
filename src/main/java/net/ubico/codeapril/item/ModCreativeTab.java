@@ -18,13 +18,14 @@ public class ModCreativeTab {
     public static Supplier<CreativeModeTab> CODE_APRIL_CREATIVE_TAB = CREATIVE_MODE_TABS.register(
             "code_april_creative_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup." + CodeApril.MOD_ID + ".code_april_creative_tab"))
+                    .title(Component.translatable("creativetab." + CodeApril.MOD_ID + ".code_april_creative_tab"))
                     .icon(() -> new ItemStack(ModItems.APRIL.get()))
                     .displayItems((params, output) -> {
                         output.accept(ModItems.APRIL.get());
                         output.accept(ModItems.RAW_APRIL.get());
                         output.accept(ModBlocks.APRIL_ORE.get());
                         output.accept(ModBlocks.RAW_APRIL_BLOCK.get());
+                        output.accept(ModBlocks.APRIL_BLOCK.get());
                     })
                     .build()
     );
